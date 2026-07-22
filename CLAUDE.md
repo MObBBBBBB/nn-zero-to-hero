@@ -44,7 +44,7 @@ phase1_pytorch&transformer/
 
 ## Python 环境
 
-- 使用全局 venv：`/home/mob/.local/venvs/global/`
+- 使用全局 venv：`~/.local/venvs/global/`
 - 已安装：torch 2.11.0+cu128 (CUDA 12.8), numpy, matplotlib, ipykernel
 - GPU：NVIDIA GeForce RTX 3060 Laptop (6GB VRAM)
 - 后续缺少的包（讲到时由用户手动安装，Claude 不执行 pip install）：
