@@ -14,8 +14,8 @@ My learning notes and experiments for Andrej Karpathy's [Neural Networks: Zero t
 | # | Lecture | Status | Notes |
 |---|---------|--------|-------|
 | 1 | micrograd | ✅ Done | [Notebook](experiments/01_micrograd/lec01_micrograd.ipynb) |
-| 2 | makemore Part 1 (Bigram) | 🔄 In Progress | — |
-| 3 | makemore Part 2 (MLP) | ⬜ Not started | |
+| 2 | makemore Part 1 (Bigram) | ✅ Done | [Notebook](experiments/02_makemore_bigram/lec02_makemore_bigram.ipynb) |
+| 3 | makemore Part 2 (MLP) | 🔄 In Progress | |
 | 4 | makemore Part 3 (BatchNorm) | ⬜ Not started | |
 | 5 | makemore Part 4 (Backprop Ninja) | ⬜ Not started | |
 | 6 | makemore Part 5 (WaveNet) | ⬜ Not started | |
