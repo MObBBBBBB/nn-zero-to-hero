@@ -1,5 +1,6 @@
 lectures/
 .claude/
+memory/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
