@@ -16,8 +16,8 @@ course — a bottom-up journey from scalar autograd to GPT-2.
 |---|---------|--------|----------|
 | 1 | micrograd | ✅ Done | [lec01_micrograd.ipynb](experiments/01_micrograd/lec01_micrograd.ipynb) |
 | 2 | makemore Part 1 (Bigram) | ✅ Done | [lec02_makemore_bigram.ipynb](experiments/02_makemore_bigram/lec02_makemore_bigram.ipynb) |
-| 3 | makemore Part 2 (MLP) | 🔄 In Progress | |
-| 4 | makemore Part 3 (BatchNorm) | ⬜ Not started | |
+| 3 | makemore Part 2 (MLP) | ✅ Done | [lec03_makemore_mlp.ipynb](experiments/03_makemore_mlp/lec03_makemore_mlp.ipynb) |
+| 4 | makemore Part 3 (BatchNorm) | 🔄 In Progress | |
 | 5 | makemore Part 4 (Backprop Ninja) | ⬜ Not started | |
 | 6 | makemore Part 5 (WaveNet) | ⬜ Not started | |
 | 7 | Build GPT | ⬜ Not started | |
