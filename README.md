@@ -19,8 +19,8 @@ course — a bottom-up journey from scalar autograd to GPT-2.
 | 3 | makemore Part 2 (MLP) | ✅ Done | [lec03_makemore_mlp.ipynb](experiments/03_makemore_mlp/lec03_makemore_mlp.ipynb) |
 | 4 | makemore Part 3 (BatchNorm) | ✅ Done | [lec04_makemore_batchnorm.ipynb](experiments/04_makemore_batchnorm/lec04_makemore_batchnorm.ipynb) |
 | 5 | makemore Part 4 (Backprop Ninja) | ⏳ Deferred until after the 2027 entrance exam | [lec05_makemore_backprop.ipynb](experiments/05_makemore_backprop/lec05_makemore_backprop.ipynb) |
-| 6 | makemore Part 5 (WaveNet) | 🔄 In progress | [lec06_makemore_wavenet.ipynb](experiments/06_makemore_wavenet/lec06_makemore_wavenet.ipynb) |
-| 7 | Build GPT | ⬜ Not started | |
+| 6 | makemore Part 5 (WaveNet) | ✅ Done | [lec06_makemore_wavenet.ipynb](experiments/06_makemore_wavenet/lec06_makemore_wavenet.ipynb) |
+| 7 | Build GPT | 🔄 In progress | [lec07_build_gpt.ipynb](experiments/07_build_gpt/lec07_build_gpt.ipynb) |
 | 8 | GPT Tokenizer (BPE) | ⬜ Not started | |
 | 9 | Reproduce GPT-2 (124M) | ⬜ Not started | |
 

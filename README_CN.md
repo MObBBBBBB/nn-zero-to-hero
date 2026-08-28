@@ -18,8 +18,8 @@
 | 3 | makemore Part 2 — MLP 语言模型 | ✅ 已完成 | [lec03_makemore_mlp.ipynb](experiments/03_makemore_mlp/lec03_makemore_mlp.ipynb) |
 | 4 | makemore Part 3 — 激活函数与 BatchNorm | ✅ 已完成 | [lec04_makemore_batchnorm.ipynb](experiments/04_makemore_batchnorm/lec04_makemore_batchnorm.ipynb) |
 | 5 | makemore Part 4 — Backprop Ninja | ⏳ 延后至 2027 年考研结束后 | [lec05_makemore_backprop.ipynb](experiments/05_makemore_backprop/lec05_makemore_backprop.ipynb) |
-| 6 | makemore Part 5 — WaveNet 架构 | 🔄 进行中 | [lec06_makemore_wavenet.ipynb](experiments/06_makemore_wavenet/lec06_makemore_wavenet.ipynb) |
-| 7 | Build GPT — decoder-only Transformer | ⬜ 未开始 | |
+| 6 | makemore Part 5 — WaveNet 架构 | ✅ 已完成 | [lec06_makemore_wavenet.ipynb](experiments/06_makemore_wavenet/lec06_makemore_wavenet.ipynb) |
+| 7 | Build GPT — decoder-only Transformer | 🔄 进行中 | [lec07_build_gpt.ipynb](experiments/07_build_gpt/lec07_build_gpt.ipynb) |
 | 8 | GPT Tokenizer — BPE 分词器 | ⬜ 未开始 | |
 | 9 | Reproduce GPT-2 (124M) | ⬜ 未开始 | |
 
