@@ -8,7 +8,9 @@
 
 My learning notes and hands-on experiments for Andrej Karpathy's
 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
-course — a bottom-up journey from scalar autograd to GPT-2.
+course, with GPT-2 reproduction as a follow-up goal. This is a personal learning
+repository, not the official course repository or a complete reimplementation of
+Karpathy's makemore/nanoGPT libraries. Completed and ongoing work is listed below.
 
 ## Progress
 
@@ -26,11 +28,23 @@ course — a bottom-up journey from scalar autograd to GPT-2.
 
 ## Environment
 
+Recorded development environment (not a requirement for every lecture):
+
 - **Python** 3.12.13
 - **PyTorch** 2.11.0+cu128
 - **CUDA** 12.8
 - **GPU** NVIDIA GeForce RTX 3060 Laptop (6 GB VRAM)
-- **venv** `~/.local/venvs/global/`
+
+The current notebooks use PyTorch, NumPy and Matplotlib. The micrograd notebook
+also uses the Python `graphviz` package and the Graphviz `dot` executable for
+computation graphs. Use a Jupyter-compatible editor with a Python kernel.
+
+## Running the notebooks
+
+Select a kernel with the required packages and run cells in order from each
+notebook's own directory. The makemore notebooks read `../names.txt`, and the
+Build GPT notebook reads `../input.txt`; both datasets are included in
+`experiments/`. Training settings may need adjustment for your hardware.
 
 ## Structure
 
@@ -39,13 +53,21 @@ nn-zero-to-hero/
 ├── LICENSE
 ├── README.md
 ├── README_CN.md
-├── CLAUDE.md                     # Project guide for Claude Code
 └── experiments/                  # My practice notebooks
+    ├── names.txt                 # Shared makemore dataset
+    ├── input.txt                 # Shakespeare text for Build GPT
     ├── 01_micrograd/
     ├── 02_makemore_bigram/
     ├── 03_makemore_mlp/
-    └── ...
+    ├── 04_makemore_batchnorm/
+    ├── 05_makemore_backprop/
+    ├── 06_makemore_wavenet/
+    └── 07_build_gpt/
 ```
+
+This tree shows the published files. Local reference clones (`lectures/`),
+progress records (`memory/`) and AI assistant instructions (`AGENTS.md`) are
+Git-ignored and are not included when cloning this repository.
 
 ## Resources
 

@@ -7,7 +7,8 @@
 
 [Andrej Karpathy](https://karpathy.ai/) 的
 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
-系列课程学习笔记与实验代码 — 从标量自动求导到 GPT-2，自底向上理解现代深度学习。
+系列课程的个人学习笔记与实验代码，并以复现 GPT-2 为后续目标。
+本仓库不是官方课程仓库，也不是 makemore/nanoGPT 库的完整复刻；已完成和进行中的内容见下表。
 
 ## 课程进度
 
@@ -25,11 +26,21 @@
 
 ## 运行环境
 
+学习时使用的开发环境记录（并非每讲的硬件或版本要求）：
+
 - **Python** 3.12.13
 - **PyTorch** 2.11.0+cu128
 - **CUDA** 12.8
 - **GPU** NVIDIA GeForce RTX 3060 Laptop (6 GB VRAM)
-- **虚拟环境** `~/.local/venvs/global/`
+
+当前 notebook 使用 PyTorch、NumPy 和 Matplotlib。micrograd 中的计算图可视化还需要
+Python `graphviz` 包和系统 Graphviz 的 `dot` 程序。使用支持 Jupyter notebook 的编辑器及 Python 内核即可。
+
+## 运行方式
+
+选择装有相应依赖的内核，以每个 notebook 所在目录为工作目录，按顺序运行单元格。
+makemore notebook 读取 `../names.txt`，Build GPT notebook 读取 `../input.txt`；
+两个数据文件均已包含在 `experiments/` 下。训练配置可根据自己的硬件调整。
 
 ## 目录结构
 
@@ -38,13 +49,20 @@ nn-zero-to-hero/
 ├── LICENSE
 ├── README.md
 ├── README_CN.md
-├── CLAUDE.md                     # Claude Code 项目指南
 └── experiments/                  # 实验 Notebook
+    ├── names.txt                 # makemore 共用数据集
+    ├── input.txt                 # Build GPT 使用的莎士比亚文本
     ├── 01_micrograd/
     ├── 02_makemore_bigram/
     ├── 03_makemore_mlp/
-    └── ...
+    ├── 04_makemore_batchnorm/
+    ├── 05_makemore_backprop/
+    ├── 06_makemore_wavenet/
+    └── 07_build_gpt/
 ```
+
+以上展示公开仓库中的文件。本地参考仓库（`lectures/`）、进度记录（`memory/`）
+及 AI 助教指令（`AGENTS.md`）均被 Git 忽略，克隆此仓库时不会包含它们。
 
 ## 参考资源
 
